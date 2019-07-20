@@ -11,6 +11,10 @@
 #model, graph = init()
 #graph = tf.get_default_graph()
 
+from keras import backend as K
+#Before prediction
+K.clear_session()
+
 
 from flask import Flask, render_template, request
 from scipy.misc import imread, imresize, imsave
@@ -53,8 +57,10 @@ def predict():
      x = x.reshape(1, 28, 28, 1)
      out = model.predict(x)
      response = np.argmax(out, axis=1)
+     #After prediction
+     K.clear_session()
      return str(response[0])
-
+     
 
 if __name__ == "__main__":
 # run the app locally on the given port
