@@ -32,7 +32,7 @@ def convertImage(imgData1):
 	 with open('output.png', 'wb') as output:
 		   output.write(base64.b64decode(imgstr))
 
-@app.route('/home')
+@app.route('/')
 def index():
  return render_template("index.html")
 

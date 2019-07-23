@@ -11,7 +11,12 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
 
 <link rel="stylesheet" href="../static/style.css"/>
-
+<script>
+fuction call()
+ {
+ alert('hello');
+  }
+</script>
 </head>
  <body>
  <div class="container">
@@ -20,13 +25,18 @@
  </div>
  <div class="jumbotron">
  <h3 class="jumbotronHeading">Draw the digit inside this Box </h3>
+ 
+  <div class="jumbotron">
+ <p id="result">Get your prediction here!!!</p>
+ </div>
+ 
  <div class="slidecontainer">
  <p>Drag the slider to change the line width.</p>
  <input type="range" min="10" max="50" value="15" id="myRange" />
  <p>Value: <span id="sliderValue"></span></p>
  </div>
  <div class="canvasDiv">
- <canvas id="canvas" width="280" height="280" style="padding-bottom: 20px">
+ <canvas id="canvas" width="200" height="200" style="padding-bottom: 20px">
  </canvas>
  <br />
  <p style="text-align:center;">
@@ -37,14 +47,7 @@
  </div>
  </div>
 
- <div class="jumbotron">
- <p id="result">Get your prediction here!!!</p>
- </div>
 
- <footer class="footer">
- <p>Predict Handwritten Image Using Cnn</p>
- </footer>
- </div>
 
 <!-- /container -->
 
@@ -66,6 +69,8 @@ $(".myButton").click(function() {
  
 });
 });
+
+
 </script>
 </body>
 </html>
