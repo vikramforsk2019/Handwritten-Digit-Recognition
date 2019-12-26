@@ -24,4 +24,4 @@ The image, when posted from the client page to the server, lost quality when sen
 - https://medium.com/@vsg16492cse2016/project-implementation-experience-digit-recognizer-for-handwritten-input-images-through-cnn-d9e4b60711ec
 - https://machinelearningmastery.com
 - https://medium.com
-- [Website Templates](https://colorlib.com/wp/templates/)
+-https://towardsdatascience.com/
