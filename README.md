@@ -6,11 +6,12 @@ How to Develop a Convolutional Neural Network From Scratch for MNIST Handwritten
 IT is a dataset of 60,000 small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9.
 
 # Overview
-Resume is job oriented and highlights your skills for that particular job. This makes it easy to scan through and get an idea of your skills.
+FRONT-END
+Technologies used: As it is a web application,the front-end of this project has been created using HTML (for layout of the webpages), CSS(for styling of the pages), BOOTSTRAP ( for styling and responsiveness), AJAX ( for dynamically communicating with the server) & JAVA-SCRIPT (for adding activity to the page).
 
-CV represents a detailed chronological overview that lists out your career.
-
-# CV Features:
+BACK-END
+Technologies used: As the backend is totally written in PYTHON programming language, things were pretty much easier to be done because Python has a lot of libraries available with it. We used FLASK for writing the server side work. (Django could also have been a great option if we had a wider spectrum of requirements. 
+#Features:
 An example of good usage of the CV is in the academic industry
 , as it gives an exhaustive insight into where you currently stand in your career.
 This can help the academic institute make an assessment of your management skills, 
