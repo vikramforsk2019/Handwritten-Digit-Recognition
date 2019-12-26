@@ -11,7 +11,8 @@ Technologies used: As it is a web application,the front-end of this project has 
 
 BACK-END
 Technologies used: As the backend is totally written in PYTHON programming language, things were pretty much easier to be done because Python has a lot of libraries available with it. We used FLASK for writing the server side work. (Django could also have been a great option if we had a wider spectrum of requirements. 
-#Features:
+#
+# FEATURES
 Challenges faced and their solutions:
  1.Problem while posting an image to the server:
 The image, when posted from the client page to the server, lost quality when sent directly. This impacted the prediction as the prediction is totally dependent on the pixel intensity values. Changes in even (1/10 )th of the pixel intensities were affecting the results.
