@@ -12,15 +12,15 @@ Technologies used: As it is a web application,the front-end of this project has 
 BACK-END
 Technologies used: As the backend is totally written in PYTHON programming language, things were pretty much easier to be done because Python has a lot of libraries available with it. We used FLASK for writing the server side work. (Django could also have been a great option if we had a wider spectrum of requirements. 
 #Features:
-An example of good usage of the CV is in the academic industry
-, as it gives an exhaustive insight into where you currently stand in your career.
-This can help the academic institute make an assessment of your management skills, 
-subject knowledge and 
-your people skills can be suitable for a role as an educator & administrator, making you a suitable candidate for many roles.
-
+Challenges faced and their solutions:
+ 1.Problem while posting an image to the server:
+The image, when posted from the client page to the server, lost quality when sent directly. This impacted the prediction as the prediction is totally dependent on the pixel intensity values. Changes in even (1/10 )th of the pixel intensities were affecting the results.
+ Solution: The images were first converted into the base64 encoded strings and then were posted to the server. This gave perfectly same images on the server side. Which made the results un-affected. This was done using using toDataURL() method (Already discussed in frontend).
+ 2. Images received on the server side were incompatible to the model.
+ 3.Accuracy of the predictions were very poor despite the model being trained very well
 # Other resources:
 
-- [www.roomseeker.in](https:/www.roomseeker.in/)
-- [java script and jsp](https://javatpoint.com/)
+- https://medium.com/@vsg16492cse2016/project-implementation-experience-digit-recognizer-for-handwritten-input-images-through-cnn-d9e4b60711ec
+- https://machinelearningmastery.com
 - https://medium.com
 - [Website Templates](https://colorlib.com/wp/templates/)
