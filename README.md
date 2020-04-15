@@ -25,3 +25,5 @@ The image, when posted from the client page to the server, lost quality when sen
 - https://machinelearningmastery.com
 - https://medium.com
 -https://towardsdatascience.com/
+# Live on Heroku Cloud
+-http:/mnist2.herokuapp.com
